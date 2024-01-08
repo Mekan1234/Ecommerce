@@ -1,0 +1,61 @@
+.specialProductCard {
+  display: flex;
+  padding: 20px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.specialProductContent {
+  flex-grow: 1;
+}
+
+.ratingInput {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  color: #9e9ea0;
+  margin-top: 15px;
+}
+.price {
+  margin-top: 15px;
+}
+.discountTill {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+.circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.circles span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: red;
+  color: #fff;
+}
+.productCount {
+  margin-top: 15px;
+}
+.progressBar {
+  margin-top: 15px;
+}
+.button {
+  background-color: var(--color-232f3e);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 25px;
+  margin-top: 15px;
+}
+.button:hover {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+}

@@ -1,0 +1,42 @@
+.blogCard {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+  text-align: left;
+}
+
+.blogContent {
+  padding: 15px;
+}
+
+.button {
+  background-color: var(--color-232f3e);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 25px;
+}
+.button:hover {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+}
+.date {
+  font-size: 13px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: var(--color-777777);
+}
+.title {
+  font-size: 18px;
+  color: var(--color-131921);
+}
+
+.description {
+  font-size: 13px;
+  line-height: 22px;
+  color: var(--color-777777);
+  margin-bottom: 10px;
+}

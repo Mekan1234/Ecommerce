@@ -1,0 +1,145 @@
+footer {
+  background-color: var(--color-232f3e);
+  padding: 10px 0;
+}
+.footerFirst {
+  padding-top: 40px;
+}
+.footerContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+.footerElements {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.footerElement {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+.footerElements h2 {
+  color: #fff;
+}
+.footerElement img {
+  width: 40px;
+  height: 40px;
+}
+.footerInputBlock {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 5px;
+  background: #fff;
+}
+.footerInput {
+  display: flex;
+  height: 40px;
+  width: 750px;
+}
+.formControl {
+  display: block;
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 6px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.formControl:focus {
+  border-color: inherit;
+  box-shadow: none;
+  outline: none;
+}
+.inputGroupText {
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 8px;
+}
+
+.inputGroupText {
+  background-color: var(--color-232f3e);
+  text-transform: uppercase;
+}
+
+.footerMain {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.footerMainElement {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footerMainElement:first-child {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.footerMainElement:nth-child(2) {
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+.footerMainElement:nth-child(3) {
+  grid-column-start: 8;
+  grid-column-end: 11;
+}
+.footerMainElement:nth-child(4) {
+  grid-column-start: 11;
+  grid-column-end: 13;
+}
+.footerMainElement h4 {
+  color: #fff;
+}
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footerLink {
+  display: inline-block;
+  color: #fff;
+}
+.address {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footerNotice {
+  color: #fff;
+  /* text-align: center; */
+  padding: 6px 0;
+}
+footer:last-child {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.contact {
+  color: #fff;
+  margin-top: 20px;
+}
+.contact:first-child {
+}
+.contactIcons {
+  display: flex;
+  gap: 30px;
+}
+.contactIcons a {
+  font-size: 25px;
+  margin-top: 15px;
+  color: #fff;
+}

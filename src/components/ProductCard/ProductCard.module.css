@@ -1,0 +1,104 @@
+.productCard {
+  position: relative;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+.productCard1 {
+  position: relative;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+.productCard:hover .actionBar {
+  right: 20px;
+}
+.productCard1:hover .actionBar {
+  right: 20px;
+}
+.wishListIcon {
+  position: absolute;
+  top: 2%;
+  right: 20px;
+}
+.productCard:hover .productImage > img:nth-child(1) {
+  display: none;
+  transition: 0.3s;
+}
+.productCard1:hover .productImage > img:nth-child(1) {
+  display: none;
+  transition: 0.3s;
+}
+.productCard:hover .productImage > img:last-child {
+  display: block;
+}
+.productCard1:hover .productImage > img:last-child {
+  display: block;
+}
+.productImage {
+  height: 269px;
+}
+.productImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.productImage > img:last-child {
+  display: none;
+  transition: 0.3s;
+}
+.brand {
+  color: var(--color-bf4800);
+  font-size: 13px;
+}
+
+.title {
+  font-size: 15px;
+  color: var(--color-1c1c1b);
+}
+
+.price {
+  font-size: 16px;
+  color: var(--color-1c1c1b);
+}
+
+.ratingInput {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  color: #9e9ea0;
+}
+.description {
+  font-size: 13px;
+  color: var(--color-1c1c1b);
+  margin-right: 25px;
+}
+.actionBar {
+  position: absolute;
+  top: 10%;
+  right: -23px;
+  transition: all 0.3s ease-in-out;
+}
+.productCard1 .actionBar {
+  top: 13%;
+}
+.displayNone {
+  display: none;
+}
+.actionColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.linkButton {
+  border: none;
+  background: transparent;
+}

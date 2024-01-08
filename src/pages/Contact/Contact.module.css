@@ -1,0 +1,78 @@
+.contactWrapper {
+  background-color: var(--color-f5f5f7);
+  padding: 40px 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.contactMap {
+  margin-bottom: 30px;
+}
+.map {
+  border: 0;
+  width: 100%;
+}
+.contactElements {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.contactTitle {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contactForm > div > input,
+.contactForm > div > textarea {
+  background-color: var(--color-f5f5f7);
+  border-radius: 10px;
+  border-color: transparent;
+}
+.button {
+  background-color: var(--color-232f3e);
+  color: #fff;
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 25px;
+  border: 0;
+}
+.button:hover {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+}
+
+.elementsColumn ul {
+  list-style: none;
+}
+.element {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.elementIcon {
+  font-size: 20px;
+}
+address {
+  padding: 0;
+  margin: 0;
+}
+.elementTitle {
+  color: var(--color-777777);
+}
+.error {
+  color: red;
+  font-size: 12px;
+}

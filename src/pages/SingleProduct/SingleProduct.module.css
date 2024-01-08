@@ -1,0 +1,348 @@
+.mainProductWrapper,
+.reviewsWrapper,
+.descriptionWrapper {
+  background-color: var(--color-f5f5f7);
+  padding: 40px 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.singleProduct {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.mainProductImages {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.mainProductBigImage {
+  display: flex;
+  position: relative;
+}
+.mainProductImage {
+  width: 100%;
+  height: 450px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.mainProductImage img,
+.magnifierImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.magnifierImage {
+  position: absolute;
+  top: 0;
+  right: -101%;
+  width: 100%;
+  height: 100%;
+  background-size: 500% 500%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  z-index: 1;
+  /* display: none; */
+}
+.lens {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  pointer-events: none;
+}
+.otherProductImages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+.otherImage {
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+
+  background-color: #fff;
+  width: 48%;
+  height: 270px;
+}
+.otherImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mainProductDetails {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+.detailsTitle {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.detailsTitle h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 10px;
+}
+.productPriceBlock {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.productPrice {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.topReview,
+.productPriceBlock a {
+  color: var(--color-777777);
+  font-size: 13px;
+}
+.productRating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.productInformation {
+  padding: 20px 0;
+}
+.informationItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+.informationItem2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+.informationItem3 {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+.accordingBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+.accordingBlock2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.productSizes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.colors {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.unChecked,
+.checked {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  padding: 2px 5px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.unChecked {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.checked {
+  border: 3px solid rgba(0, 0, 0, 0.6);
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.button {
+  background-color: var(--color-232f3e);
+  color: #fff;
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 25px;
+  border: 0;
+}
+.button:hover {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+}
+.signUpButton {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 25px;
+  border: 0;
+}
+.signUpButton:hover {
+  background-color: var(--color-232f3e);
+  color: #fff;
+}
+
+.productHeading {
+  font-size: 14px;
+  color: var(--color-1c1c1b);
+  margin-bottom: 0;
+}
+.productData {
+  font-size: 13px;
+  color: var(--color-777777);
+  margin-bottom: 0;
+}
+.sectionHeader {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.descriptionBody h4,
+.reviewsTitle {
+  font-size: 26px;
+  color: var(--color-1c1c1b);
+  margin-bottom: 10px;
+}
+.descriptionText {
+  background-color: #fff;
+  padding: 30px;
+}
+.descriptionText p {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+.ratingInput {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  color: #9e9ea0;
+  margin-right: 7px;
+  margin-bottom: 10px;
+}
+.reviewsBody {
+  background-color: #fff;
+  padding: 30px;
+}
+.reviewsHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+.reviewsHead > div > h4 {
+  font-size: 18px;
+  color: var(--color-1c1c1b);
+}
+.reviewsHead p,
+.reviewsHead a {
+  color: var(--color-777777);
+  font-size: 14px;
+}
+.reviewRating {
+  display: flex;
+  gap: 10px;
+}
+.reviewRating p {
+  margin-bottom: 0;
+  padding: 0;
+}
+.writeReview {
+  color: #000;
+  text-decoration: underline;
+}
+.button {
+  background-color: var(--color-232f3e);
+  color: #fff;
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 25px;
+  border: 0;
+}
+.button:hover {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+}
+.reviewForm {
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+.reviewForm h4 {
+  color: var(--color-777777);
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.reviewButton {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  margin-top: 20px;
+}
+.reviews {
+  margin-top: 30px;
+}
+.review:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.review p {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+.reviewerMan {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.compareAndWishlist {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.addWishlist > a,
+.compareProducts > a,
+.productLink {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+.icon {
+  font-size: 20px;
+  margin-right: 8px;
+}

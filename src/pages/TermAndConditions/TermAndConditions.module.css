@@ -1,0 +1,8 @@
+.privacyWrapper {
+  background-color: var(--color-f5f5f7);
+  padding: 40px 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
